@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+}
+
+div {
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media ( min-width: 768px) {
+    body {
+        background-color: blue;
+        color: white
+    }
+
+    div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
